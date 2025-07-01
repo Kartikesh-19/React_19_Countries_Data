@@ -1,0 +1,72 @@
+ [
+  {
+    "id": 1,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFacts": "Japan has more than 6,800 islands and is home to the world's oldest continuously operating company."
+  },
+  {
+    "id": 2,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "population": 38930000,
+    "interestingFacts": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 3,
+    "name": "Brazil",
+    "capital": "Brasília",
+    "population": 203000000,
+    "interestingFacts": "Brazil is home to about 60% of the Amazon Rainforest."
+  },
+  {
+    "id": 4,
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1428000000,
+    "interestingFacts": "India is the world’s largest democracy and home to the Kumbh Mela gathering visible from space."
+  },
+  {
+    "id": 5,
+    "name": "Australia",
+    "capital": "Canberra",
+    "population": 26800000,
+    "interestingFacts": "Australia is the only continent without an active volcano."
+  },
+  {
+    "id": 6,
+    "name": "Egypt",
+    "capital": "Cairo",
+    "population": 111000000,
+    "interestingFacts": "Egypt is home to the only remaining ancient wonder: the Great Pyramid of Giza."
+  },
+  {
+    "id": 7,
+    "name": "Norway",
+    "capital": "Oslo",
+    "population": 5400000,
+    "interestingFacts": "Norway is known for its stunning fjords and is one of the happiest countries in the world."
+  },
+  {
+    "id": 8,
+    "name": "South Korea",
+    "capital": "Seoul",
+    "population": 51780000,
+    "interestingFacts": "South Korea has the fastest internet speed in the world."
+  },
+  {
+    "id": 9,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "population": 129000000,
+    "interestingFacts": "Mexico introduced chocolate, chilies, and corn to the world."
+  },
+  {
+    "id": 10,
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "population": 5200000,
+    "interestingFacts": "New Zealand was the first country to give women the right to vote in 1893."
+  }
+]

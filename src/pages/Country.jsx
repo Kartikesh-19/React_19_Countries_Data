@@ -33,11 +33,11 @@ const Country = () => {
  const filterCountries= countries.filter((country)=>searchCountry(country) && filterRegion(country))
   return (
     <section className="country-section">
-      <SearchFilter {...{search,setSearch,filter,setFilter, countries}}/>
+      <SearchFilter {...{search,setSearch,filter,setFilter, countries,setCountries}}/>
       <ul className="grid grid-four-cols">
         {Array.isArray(filterCountries) &&
-          filterCountries?.map((currentCountry) => {
-            return <CountryCard country={currentCountry} />;
+          filterCountries?.map((currentCountry,index) => {
+            return <CountryCard country={currentCountry} key={index} />;
           })}
       </ul>
     </section>

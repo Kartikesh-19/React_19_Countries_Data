@@ -598,3 +598,15 @@ contact us Page ends here
   justify-content: center;
   align-items: center;
 }
+.active_tab {
+  background-color: #25b09b;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white; /* Optional: for better visibility */
+}
+.tab {
+ text-decoration: none;
+
+}

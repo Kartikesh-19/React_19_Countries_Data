@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Headers = () => {
+  
   return (
     <header>
 
@@ -9,22 +10,22 @@ const Headers = () => {
       <div className="grid navbar-grid">
         <div className="Logo">
           <NavLink to={"/"} style={{textDecoration:'none'}}>
-            <h1>WorldAtlas</h1>
+            <h1>Explore X</h1>
           </NavLink>
         </div>
         <nav >
           <ul >
             <li>
-              <NavLink to="/" style={{textDecoration:'none'}}>Home</NavLink>
+              <NavLink to="/"  className={({isActive})=>isActive?"active_tab":"tab"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about" style={{textDecoration:'none'}}>About</NavLink>
+              <NavLink to="/about"  className={({isActive})=>isActive?"active_tab":"tab"}>About</NavLink>
             </li>
             <li>
-              <NavLink to="/country" style={{textDecoration:'none'}}>Country</NavLink>
+              <NavLink to="/country"  className={({isActive})=>isActive?"active_tab":"tab"} >Country</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" style={{textDecoration:'none'}}>Contact</NavLink>
+              <NavLink to="/contact"  className={({isActive})=>isActive?"active_tab":"tab"}>Contact</NavLink>
             </li>
           </ul>
         </nav>

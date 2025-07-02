@@ -10,7 +10,7 @@ const ErrorPage = () => {
         OOps! An error occured.
       </h1>
       {error ? (
-        <p style={{ textAlign: "center", color: "black" }}> {error.data}</p>
+        <p style={{ textAlign: "center", color: "white" }}> {error.data}</p>
       ) : (
         <></>
       )}

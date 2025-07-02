@@ -1,7 +1,9 @@
 import React from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
 
 const CountryCard = ({country:{flags,population,name,region,capital,id }}) => {
     console.log("flag", flags,population,name)
+    const location=useLocation()
     
   return (
     <li key={id} className='country-card card'>
@@ -16,6 +18,12 @@ const CountryCard = ({country:{flags,population,name,region,capital,id }}) => {
                 <p><span className='card-description'>Capital:</span>&nbsp;{capital[0]}</p>
 
             </div>
+            <NavLink to={`${location?.pathname}/${name?.common}`}>
+
+            <button>
+              Read More
+            </button>
+            </NavLink>
             {/* <span>{population}</span>
             <span>{name?.common}</span>
             <span></span> */}

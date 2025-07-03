@@ -11,7 +11,7 @@ export const About = () => {
 
       <div className="gradient-cards">
         {countryFacts.map((country) => {
-          const { id, countryName, capital, population, interestingFact } =
+          const { id, countryName, capital, population, interestingFacts } =
             country;
           return (
             <div className="card" key={id}>
@@ -27,7 +27,7 @@ export const About = () => {
                 </p>
                 <p>
                   <span className="card-description">Interesting Fact:</span>
-                  {interestingFact}
+                  {interestingFacts}
                 </p>
               </div>
             </div>

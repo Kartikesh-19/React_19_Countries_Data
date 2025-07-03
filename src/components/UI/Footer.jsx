@@ -49,7 +49,7 @@ import { NavLink } from "react-router-dom";
 
                 <li>
                   <NavLink
-                    to="https://www.instagram.com/thapatechnical/"
+                    to="https://www.instagram.com/kartikesh_sharma/"
                     target="_blank"
                   >
                     Social
@@ -57,7 +57,7 @@ import { NavLink } from "react-router-dom";
                 </li>
                 <li>
                   <NavLink
-                    to="https://thapatechnical.shop/source-code"
+                    to="https://github.com/Kartikesh-19/React_19_Countries_Data"
                     target="_blank"
                   >
                     Source Code

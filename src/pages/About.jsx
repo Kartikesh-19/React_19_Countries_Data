@@ -262,6 +262,7 @@ export const About = () => {
                   height: '280px',
                   borderRadius: '50%',
                   background: 'linear-gradient(135deg, #667eea 0%, #764ba2 50%, #4ECDC4 100%)',
+                  backgoundImage:`url(${imgs})`,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -270,7 +271,9 @@ export const About = () => {
                   boxShadow: '0 20px 40px rgba(102, 126, 234, 0.3)',
                   animation: 'pulse 2s ease-in-out infinite'
                 }}>
-                  <img src={imgs} alt="dp" />
+                  {/* //updated code */}
+                  <img src={imgs} alt="dp"  style={{ width: '280px',
+                  height: '280px', borderRadius: '50%',}}/>
                 </div>
               </div>
             </div>

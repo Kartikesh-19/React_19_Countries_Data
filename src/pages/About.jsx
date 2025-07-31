@@ -5,7 +5,7 @@ import {
   FaAward, FaStar, FaHeart, FaEye, FaHandshake, FaUsers, FaGlobe, FaClock,
   FaUser, FaBriefcase, FaTrophy
 } from "react-icons/fa";
-import imgs from "../assets/dp.png";
+import imgs from "../assets/profile.jpg";
 
 export const About = () => {
   const [activeTab, setActiveTab] = useState('about');
